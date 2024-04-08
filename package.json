@@ -1,0 +1,13 @@
+{
+  "name": "knight-travails",
+  "version": "1.0.0",
+  "description": "Knight Travails project from TheOdinProject that uses BST search algorithm to find the shortest path for knight from one square to another on the chess board.",
+  "main": "knight-travails.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
