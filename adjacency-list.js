@@ -5,12 +5,15 @@ class AdjacencyList {
         this.adjacencies = [];
     }
 
+    equals(coords){
+        return this.x === coords[0] && this.y === coords[1];
+    }
+
     prettyPrint(){
         let string = `[${this.x}, ${this.y}] -> `;
         this.adjacencies.forEach((coords) => {
             string += `[${coords[0]}, ${coords[1]}],`;
         })
-        console.log(string);
     }
 }
 
