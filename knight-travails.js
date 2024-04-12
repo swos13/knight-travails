@@ -58,7 +58,7 @@ const knightTravail = (() => {
             }
         }
         printPaths(finishedPaths);
-    }
+    } blablablablabllabla
 
     const printPaths = (paths) => {
         console.log(`MINIMUM MOVES - ${paths[0].length-1}.`);
